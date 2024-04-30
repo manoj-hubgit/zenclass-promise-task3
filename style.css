@@ -105,7 +105,23 @@ td{
   font-size: 1.5rem;
   color: rgb(52, 52, 52) !important;
 }
-
+.gotop a{
+  color: black;
+  opacity: 100%;
+}
+.gotop{
+  position:fixed;
+  font-size: 1.2rem;
+  bottom:0;
+  right: 0;
+  background-color: rgb(131, 131, 131);
+  padding:0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  opacity: 0.5;
+  
+  
+}
 @media (max-width: 768px) {
   /* Adjust font sizes and padding for smaller screens */
   
